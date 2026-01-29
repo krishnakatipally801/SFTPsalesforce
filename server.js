@@ -23,13 +23,13 @@ const SFTP_CONFIG = {
   port: 22,
   username: 'mymax-user',           // 🔁 CHANGE
   privateKey: `
------BEGIN RSA PRIVATE KEY-----
+-----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
 QyNTUxOQAAACCB6y6PuxK3l5NYtQFmZu2RkL8td5dfj+4dDnWdyd4jlAAAAJDKT/ODyk/z
 gwAAAAtzc2gtZWQyNTUxOQAAACCB6y6PuxK3l5NYtQFmZu2RkL8td5dfj+4dDnWdyd4jlA
 AAAEA187oBXDhI+Y0/JFWs+cgfN9o+QKcC/6/Mwa9ooprd7IHrLo+7EreXk1i1AWZm7ZGQ
 vy13l1+P7h0OdZ3J3iOUAAAACm15bWF4LXVzZXIBAgM=
------END RSA PRIVATE KEY-----
+-----END OPENSSH PRIVATE KEY-----
 `,
   remoteDir: '/incoming'           // 🔁 CHANGE
 };
